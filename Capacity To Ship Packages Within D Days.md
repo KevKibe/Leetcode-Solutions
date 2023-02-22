@@ -41,9 +41,11 @@ Constraints:
 1 <= days <= weights.length <= 5 * 104
 1 <= weights[i] <= 500
 
-# Solution
+#Solution
+
 
 class Solution(object):
+
     def shipWithinDays(self, weights, days):
         """
         :type weights: List[int]
@@ -52,6 +54,7 @@ class Solution(object):
         """
         lo = 0
         hi = 0
+        
         def canShip(opacity):
             D = 1
             remain = opacity
