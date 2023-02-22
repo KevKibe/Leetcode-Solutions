@@ -52,7 +52,6 @@ class Solution(object):
         """
         lo = 0
         hi = 0
-
         def canShip(opacity):
             D = 1
             remain = opacity
