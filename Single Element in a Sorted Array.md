@@ -11,6 +11,7 @@ Output: 10
   
 # Solution
 class Solution(object):
+
     def singleNonDuplicate(self, nums):
         """
         :type nums: List[int]
