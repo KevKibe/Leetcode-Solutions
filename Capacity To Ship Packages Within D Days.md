@@ -41,7 +41,7 @@ Constraints:
 1 <= days <= weights.length <= 5 * 104
 1 <= weights[i] <= 500
 
-#Solution
+# Solution
 
 
 class Solution(object):
