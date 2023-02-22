@@ -18,7 +18,9 @@ s consists of only lowercase English letters.
 1 <= k <= 104
 
 # Solution 
+
 class Solution(object):
+
     def reverseStr(self, s, k):
         """
         :type s: str
