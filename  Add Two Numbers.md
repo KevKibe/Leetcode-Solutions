@@ -25,7 +25,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 
 - Time Complexity -> O(n)
-- Time Complexity -> O(n)
+- Space Complexity -> O(n)
 ```
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
